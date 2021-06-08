@@ -187,3 +187,13 @@ body{
               -5px  0 0 #ecf0f1;
   transition-delay: 0s,0.5s,1s,1s;
 }
+@media screen and (max-width:800px ){
+.CONT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  visibility: hidden;
+}
+}
