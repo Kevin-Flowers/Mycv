@@ -189,11 +189,29 @@ body{
 }
 @media screen and (max-width:800px ){
 .CONT{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
+ display: flex;
+    align-items: stretch;
+    position: fixed;
+    z-index: 1;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   visibility: hidden;
+}
+  .CONT a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #ecf0f1;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+  -webkit-box-reflect: below 0px linear-gradient
+  (transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
 }
 }
