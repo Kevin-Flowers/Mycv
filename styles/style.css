@@ -102,8 +102,6 @@ body{
   visibility: visible;
 }
 .clop{
-  display: flex;
-    z-index: 3;
   visibility: hidden;
 }
 
@@ -220,8 +218,6 @@ body{
   transition-delay: 0s;
 }
  .clop{
-  display: flex;
-   z-index: 3;
   visibility: visible;
 }
 }
