@@ -99,6 +99,7 @@ body{
   align-items: center;
   position: relative;
   z-index: 1;
+  visibility: visible;
 }
 .clop{
   display: flex;
