@@ -100,7 +100,11 @@ body{
   position: relative;
   z-index: 1;
 }
-
+.clop{
+  display: flex;
+    z-index: 3;
+  visibility: hidden;
+}
 
 .CONT a {
   position: relative;
@@ -213,5 +217,10 @@ body{
   (transparent, #0002);
   transition: 0.5s;
   transition-delay: 0s;
+}
+ .clop{
+  display: flex;
+   z-index: 3;
+  visibility: visible;
 }
 }
