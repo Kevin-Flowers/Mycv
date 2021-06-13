@@ -101,7 +101,9 @@ body{
   z-index: 1;
   visibility: visible;
 }
-.clop{
+.clop span{
+  float: right;
+  font-size: 40px;
   visibility: hidden;
 }
 
@@ -217,7 +219,9 @@ body{
   transition: 0.5s;
   transition-delay: 0s;
 }
- .clop{
+ .clop span{
+   float: right;
+  font-size: 40px;
   visibility: visible;
 }
 }
