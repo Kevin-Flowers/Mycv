@@ -26,6 +26,14 @@
         <a href="#" onclick="ele()"><span>Experencia Laboral</span></a>
         <a href="#" onclick="chu()"><span>Conocimientos y Habilidades</span></a>
     </div>
+       <script>const mediumBp = matchMedia('(max-width:800px)');
+const changeSize = mql => {
+   mql.matches
+   ? document.getElementById("clop").innerHTML = "<div id="clop" onclick=""><span></span></div>"
+   : document.getElementById("clop").innerHTML = "<a id="clop" onclick=""><span></span></a>"
+}
+mediumBp.addListener(changeSize);
+changeSize(mediumBp);</script>
        
     <div class="datos">
         <section id="dp" class="off">
