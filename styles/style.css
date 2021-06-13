@@ -101,11 +101,7 @@ body{
   z-index: 1;
   visibility: visible;
 }
-.clop {
-  float: right;
-  font-size: 40px;
-  visibility: hidden;
-}
+
 
 .CONT a {
   position: relative;
@@ -219,9 +215,5 @@ body{
   transition: 0.5s;
   transition-delay: 0s;
 }
- .clop {
-   float: right;
-  font-size: 40px;
-  visibility: visible;
-}
+ 
 }
