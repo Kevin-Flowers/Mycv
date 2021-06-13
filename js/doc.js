@@ -4,15 +4,6 @@ var mi = document.getElementById("mi");
 var el = document.getElementById("el");
 var ch = document.getElementById("ch");
 
-const mediumBp = matchMedia('(max-width:800px)');
-const changeSize = mql => {
-   mql.matches
-   ? document.getElementById("clop").innerHTML = "<div id="clop" onclick=""><span></span></div>"
-   : document.getElementById("clop").innerHTML = "<a id="clop" onclick=""><span></span></a>"
-}
-mediumBp.addListener(changeSize);
-changeSize(mediumBp);
-
 function dap(){
    if (inicio.style.visibility === "visible"  && dp.style.visibility === "hidden" && mi.style.visibility === "hidden" && el.style.visibility === "hidden" && ch.style.visibility === "hidden") {
      dp.style.visibility = "visible";
