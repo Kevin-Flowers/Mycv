@@ -7,8 +7,8 @@ var ch = document.getElementById("ch");
 const mediumBp = matchMedia('(max-width:800px)');
 const changeSize = mql => {
    mql.matches
-   ? document.getElementById("clop").innerHTML = "<a id="clop" onclick=""><span></span></a>"
-   : document.getElementById("clop").innerHTML = "<div id="clop" onclick=""><span></span></div>"
+   ? document.getElementById("clop").innerHTML = "<div id="clop" onclick=""><span></span></div>"
+   : document.getElementById("clop").innerHTML = "<a id="clop" onclick=""><span></span></a>"
 }
 mediumBp.addListener(changeSize);
 changeSize(mediumBp);
