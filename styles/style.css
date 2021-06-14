@@ -101,7 +101,9 @@ body{
   z-index: 1;
   visibility: visible;
 }
-
+#clop{
+visibility: hidden;
+}
 
 .CONT a {
   position: relative;
