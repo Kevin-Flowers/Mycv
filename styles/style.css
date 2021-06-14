@@ -102,7 +102,8 @@ body{
   visibility: visible;
 }
 #clop{
-visibility: hidden;
+ visibility: hidden;
+  display: none;
 }
 
 .CONT a {
@@ -216,6 +217,11 @@ visibility: hidden;
   (transparent, #0002);
   transition: 0.5s;
   transition-delay: 0s;
+}
+  #clop{
+ visibility: visible;
+  display: block;
+    width: 10%;
 }
  
 }
