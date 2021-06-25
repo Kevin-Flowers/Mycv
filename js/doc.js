@@ -200,4 +200,8 @@ function ele(){
        ch.style.visibility = "visible";
     }}
 
+function men(){
+    clop.src = "img/cerrar.png"
+}
+
 
