@@ -239,5 +239,11 @@ body{
     display: none;
   }
   #me{
-  display: block;}
+  display: block;
+  }
+    #me:hover{
+  cursor: pointer;}
+  #cer:checked ~ .CONT {
+  visibility: visible;
+  }
 }
