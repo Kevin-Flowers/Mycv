@@ -200,9 +200,9 @@ function ele(){
        ch.style.visibility = "visible";
     }}
 
-var clop = document.getElementById('me');
+var me = document.getElementById("me");
 
 function men(){
-    clop.src = "img/cerrar.png"
+    me.src = "img/cerrar.png"
 }
 
