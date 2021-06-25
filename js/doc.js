@@ -201,8 +201,10 @@ function ele(){
     }}
 
 var me = document.getElementById("me");
+var cer = document.getElementById("cer");
 
 function men(){
-    me.src = "img/cerrar.png"
+    cer.style.display = "block";
+   me.style.display = "none"
 }
 
