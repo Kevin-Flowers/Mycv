@@ -235,5 +235,9 @@ body{
   display: block;
     width: 10%;
 }
- 
+  #cer{
+    display: none;
+  }
+  #me{
+  display: block;}
 }
