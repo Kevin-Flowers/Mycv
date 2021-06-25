@@ -200,11 +200,3 @@ function ele(){
        ch.style.visibility = "visible";
     }}
 
-var me = document.getElementById("me");
-var cer = document.getElementById("cer");
-
-function men(){
-    cer.style.display = "block";
-   me.style.display = "none"
-}
-
