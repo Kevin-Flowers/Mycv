@@ -204,5 +204,5 @@ var me = document.getElementById("me");
 var CONT = document.getElementsByClassName('CONT');
 
 me.onclick = function(){
-    CONT.style.visibility = "visible"
+    CONT.style.visibility = "visible";
 }
