@@ -221,7 +221,7 @@ body{
   display: inline-block;
   padding: 15px 30px;
   border: 2px solid #ecf0f1;
-  margin: 70px;
+  margin: -15px;
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
@@ -252,7 +252,7 @@ body{
   #dp{
   visibility: hidden;
   position: absolute;
-    margin-top: 50%;
+    margin-top: 20%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -10%);
@@ -276,7 +276,7 @@ body{
 #el{
   visibility: hidden;
   position: absolute;
-  margin-top: 50%;
+  margin-top: 15%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -10%);
@@ -289,7 +289,7 @@ body{
 #ch{
   visibility: hidden;
   position: absolute;
-  margin-top: 30%;
+  margin-top: 8%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -10%);
