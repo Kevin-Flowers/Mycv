@@ -210,7 +210,7 @@ me.onclick = function(){
     yn = false;
 }
     else{
-        CONT.style.visibility = "hidden";
+        CONT.style.visibility = "visible";
         yn = true;
     }
 }
