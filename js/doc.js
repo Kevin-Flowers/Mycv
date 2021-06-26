@@ -200,3 +200,8 @@ function ele(){
        ch.style.visibility = "visible";
     }}
 
+var me = document.getElementById("me");
+
+function men(){
+    me.src = "img/cerrar.png"
+}
