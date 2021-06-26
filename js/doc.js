@@ -201,7 +201,7 @@ function ele(){
     }}
 
 var me = document.getElementById("me");
-var CONT = document.getElementsByClassName('CONT');
+var CONT = document.getElementById("CONT");
 
 me.onclick = function(){
     CONT.style.visibility = "visible";
