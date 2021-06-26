@@ -202,7 +202,15 @@ function ele(){
 
 var me = document.getElementById("me");
 var CONT = document.getElementById("CONT");
+var yn = false;
 
 me.onclick = function(){
-    CONT.style.visibility = "visible";
+    if(yn == true){
+    CONT.style.visibility = "hidden";
+    yn = false;
+}
+    else{
+        CONT.style.visibility = "hidden";
+        yn = true;
+    }
 }
